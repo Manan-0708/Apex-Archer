@@ -1,0 +1,32 @@
+# Unity default ignore
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Visual Studio / IDE
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.unitypackage
+*.tps
+*.tmpro
+
+# Asset Store / Packages
+/Assets/AssetStoreTools*
+
+# PlasticSCM
+.plastic/
+
+# OS generated
+.DS_Store
+Thumbs.db

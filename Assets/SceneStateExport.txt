@@ -1,0 +1,3195 @@
+===== UNITY SCENE STATE EXPORT =====
+Scene Name: MainGame
+Scene Path: Assets/Scenes/MainGame.unity
+------------------------------------
+GameObject: Directional Light
+  Active: True
+  Position: (0.00, 3.00, 0.00)
+  Rotation: (45.00, 330.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - Light
+    - UniversalAdditionalLightData
+
+GameObject: Environment
+  Active: True
+  Position: (3.89, -0.54, 16.92)
+  Rotation: (0.00, 212.59, 0.00)
+  Scale: (1.18, 1.18, 1.18)
+  Components:
+    - Transform
+
+    GameObject: Ground_02 (1)
+      Active: True
+      Position: (-7.36, -0.32, -20.99)
+      Rotation: (0.00, 291.40, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Ground_02 (2)
+      Active: True
+      Position: (6.92, -0.50, -37.24)
+      Rotation: (0.00, 351.17, 0.00)
+      Scale: (1.34, 2.03, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Ground_03 (1)
+      Active: True
+      Position: (0.00, 0.00, 14.77)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Ground_03 (2)
+      Active: True
+      Position: (18.69, 0.00, 14.77)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Tree_03 (1)
+      Active: True
+      Position: (-5.66, 0.25, -1.79)
+      Rotation: (355.29, 301.56, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+        - MeshRenderer
+
+        GameObject: Tree_03_LOD0
+          Active: True
+          Position: (2.26, -0.06, 0.76)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_03 (2)
+      Active: True
+      Position: (-12.41, 0.25, 0.19)
+      Rotation: (0.00, 83.13, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+        - MeshRenderer
+
+        GameObject: Tree_03_LOD0
+          Active: True
+          Position: (-2.27, 0.00, 4.72)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_02 (1)
+      Active: True
+      Position: (-2.58, 0.24, -8.72)
+      Rotation: (357.81, 317.75, 357.60)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+        - MeshRenderer
+
+        GameObject: Tree_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_03 (3)
+      Active: True
+      Position: (6.59, 0.06, -13.47)
+      Rotation: (1.83, 58.81, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+        - MeshRenderer
+
+        GameObject: Tree_03_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_02 (9)
+      Active: True
+      Position: (9.90, -0.08, -4.21)
+      Rotation: (1.23, 57.53, 354.48)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+        - MeshRenderer
+
+        GameObject: Tree_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Stump_01
+      Active: True
+      Position: (-4.53, 0.41, 6.29)
+      Rotation: (359.02, 34.99, 359.80)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Stump_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Stump_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_03
+      Active: True
+      Position: (3.36, 0.37, 0.84)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_03_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Ground_01
+      Active: True
+      Position: (24.09, -0.05, 0.05)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Ground_02
+      Active: True
+      Position: (20.08, -0.32, -20.11)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Ground_03
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_03 (2)
+      Active: True
+      Position: (11.90, 0.52, -18.61)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (25.97, 25.97, 25.97)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Grass_01 (9)
+      Active: True
+      Position: (2.76, 0.59, -8.21)
+      Rotation: (0.00, 4.93, 0.00)
+      Scale: (2.22, 2.22, 2.22)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Grass_02 (1)
+      Active: True
+      Position: (3.66, 0.43, -0.25)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.90, 1.90, 1.90)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Grass_01 (6)
+      Active: True
+      Position: (3.74, 0.45, 0.51)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.78, 1.78, 1.78)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_04 (3)
+      Active: True
+      Position: (3.23, 0.29, 0.13)
+      Rotation: (354.50, 21.50, 13.66)
+      Scale: (1.17, 1.17, 1.17)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_01 (1)
+      Active: True
+      Position: (2.40, 0.35, 0.57)
+      Rotation: (9.10, 357.68, 345.64)
+      Scale: (1.45, 2.22, 1.45)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Branch_01
+      Active: True
+      Position: (3.89, 0.46, 0.41)
+      Rotation: (291.35, 269.01, 3.30)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_03 (4)
+      Active: True
+      Position: (13.67, -0.03, 1.35)
+      Rotation: (0.00, 0.00, 13.50)
+      Scale: (11.46, 11.46, 11.46)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_01
+      Active: True
+      Position: (8.44, 0.71, 11.84)
+      Rotation: (22.91, 329.86, 0.00)
+      Scale: (4.29, 4.29, 4.29)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_03 (3)
+      Active: True
+      Position: (-3.51, 0.37, -12.16)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (15.08, 15.08, 15.08)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_03 (1)
+      Active: True
+      Position: (9.51, 0.52, -5.95)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (7.25, 7.25, 7.25)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_02
+      Active: True
+      Position: (1.51, 0.60, -12.16)
+      Rotation: (10.43, 0.00, 346.51)
+      Scale: (20.26, 20.26, 20.26)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_04 (2)
+      Active: True
+      Position: (-3.97, -0.92, -5.81)
+      Rotation: (18.12, 1.08, 39.86)
+      Scale: (3.13, 3.13, 3.13)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Grass_01 (2)
+      Active: True
+      Position: (-4.36, 0.38, 6.01)
+      Rotation: (359.32, 336.40, 0.73)
+      Scale: (1.91, 1.91, 1.91)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Grass_01 (1)
+      Active: True
+      Position: (8.84, 0.58, 7.59)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Grass_01
+      Active: True
+      Position: (8.19, 0.58, 7.23)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_03
+      Active: True
+      Position: (9.10, 0.58, 7.13)
+      Rotation: (0.00, 353.37, 11.32)
+      Scale: (3.12, 3.12, 3.12)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mushroom_02
+      Active: True
+      Position: (8.05, 0.61, 7.30)
+      Rotation: (0.00, 35.32, 0.00)
+      Scale: (1.71, 1.71, 1.71)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Mushroom_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Mushroom_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_04
+      Active: True
+      Position: (8.68, 0.24, 6.65)
+      Rotation: (0.00, 0.00, 37.08)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Tree_05 (1)
+      Active: True
+      Position: (7.99, 0.46, 5.04)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_05_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_05_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_05 (2)
+      Active: True
+      Position: (8.49, 0.61, 7.47)
+      Rotation: (0.00, 310.66, 0.00)
+      Scale: (1.58, 1.58, 1.58)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_05_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_05_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Bush_03 (3)
+      Active: True
+      Position: (-3.56, 0.37, -4.77)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Bush_03_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Bush_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_05 (5)
+      Active: True
+      Position: (7.08, 0.43, 5.29)
+      Rotation: (0.00, 238.28, 0.00)
+      Scale: (0.48, 0.48, 0.48)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Bush_03 (1)
+      Active: True
+      Position: (6.98, 0.48, 4.72)
+      Rotation: (0.00, 231.62, 0.00)
+      Scale: (1.48, 1.48, 1.48)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Bush_03_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Bush_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_05 (3)
+      Active: True
+      Position: (-30.70, 2.44, -40.20)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (13.04, 13.04, 13.04)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_05 (1)
+      Active: True
+      Position: (7.64, 0.28, 3.24)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_03
+      Active: True
+      Position: (7.60, 0.46, 9.99)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Flowers_02
+      Active: True
+      Position: (7.77, 0.45, 10.09)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Flowers_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Flowers_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_04 (3)
+      Active: True
+      Position: (-4.98, 0.41, -6.78)
+      Rotation: (2.13, 40.48, 356.31)
+      Scale: (1.43, 1.43, 1.43)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_04_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_04_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_04 (2)
+      Active: True
+      Position: (9.16, 0.24, 2.41)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_04_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_04_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_04 (1)
+      Active: True
+      Position: (-1.15, 0.45, 1.16)
+      Rotation: (0.00, 95.23, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_04_LOD0
+          Active: True
+          Position: (2.47, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_04_LOD1
+          Active: True
+          Position: (2.47, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_05
+      Active: True
+      Position: (2.98, 0.49, 10.37)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_05_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_05_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_05
+      Active: True
+      Position: (2.89, 0.54, 11.74)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Tree_04
+      Active: True
+      Position: (7.80, -0.08, -5.98)
+      Rotation: (1.27, 50.74, 358.97)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_04_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_04_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Ground_02 (5)
+      Active: True
+      Position: (45.40, -0.32, -34.20)
+      Rotation: (0.00, 108.09, 0.00)
+      Scale: (1.81, 1.55, 1.81)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Tree_03 (5)
+      Active: True
+      Position: (1.68, 0.20, -10.00)
+      Rotation: (1.83, 135.56, 0.00)
+      Scale: (1.97, 1.97, 1.97)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_03_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_02 (10)
+      Active: True
+      Position: (-2.28, 0.24, -9.88)
+      Rotation: (357.81, 16.83, 357.60)
+      Scale: (1.14, 1.14, 1.14)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_02 (11)
+      Active: True
+      Position: (-3.72, 0.24, -9.10)
+      Rotation: (4.72, 358.94, 0.31)
+      Scale: (1.14, 1.14, 1.14)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Tree_04 (6)
+      Active: True
+      Position: (7.23, -0.08, -6.06)
+      Rotation: (355.83, 350.51, 3.41)
+      Scale: (1.05, 1.05, 1.05)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Tree_04_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Tree_04_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Branch_01
+      Active: True
+      Position: (-6.67, 0.33, 2.50)
+      Rotation: (88.78, 195.77, 180.00)
+      Scale: (1.29, 1.29, 1.29)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Rock_01
+      Active: True
+      Position: (-3.21, 0.36, 3.37)
+      Rotation: (17.95, 352.91, 10.38)
+      Scale: (0.87, 0.87, 0.87)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mushroom_01
+      Active: True
+      Position: (-2.45, 0.35, 4.16)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (0.79, 0.79, 0.79)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Mushroom_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Mushroom_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Grass_01 (2)
+      Active: True
+      Position: (-2.61, 0.37, 4.06)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Bush_03
+      Active: True
+      Position: (-2.47, 0.38, 3.62)
+      Rotation: (8.88, 348.48, 358.75)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Bush_03_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Bush_03_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Bush_02
+      Active: True
+      Position: (-6.04, 0.32, -1.96)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Bush_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Bush_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Grass_02
+      Active: True
+      Position: (-4.40, 0.45, 6.60)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_05
+      Active: True
+      Position: (-6.16, 0.49, 6.28)
+      Rotation: (0.00, 354.49, 0.00)
+      Scale: (1.04, 1.04, 1.04)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Grass_01 (1)
+      Active: True
+      Position: (6.11, 0.37, -1.23)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Grass_01
+      Active: True
+      Position: (-4.18, 0.38, -4.35)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.82, 1.82, 1.82)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Grass_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Grass_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Flowers_01
+      Active: True
+      Position: (-3.94, 0.38, -4.35)
+      Rotation: (0.00, 102.24, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Flowers_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Flowers_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Flowers_02
+      Active: True
+      Position: (5.35, 0.43, -1.76)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.34, 1.34, 1.34)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Flowers_02_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Flowers_02_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Ground_02 (7)
+      Active: True
+      Position: (61.40, -10.70, -62.30)
+      Rotation: (0.00, 318.87, 0.00)
+      Scale: (6.16, 9.56, 6.16)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Flowers_01 (2)
+      Active: True
+      Position: (-4.17, 0.44, 6.16)
+      Rotation: (0.00, 99.48, 0.00)
+      Scale: (1.20, 1.20, 1.20)
+      Components:
+        - Transform
+        - LODGroup
+
+        GameObject: Flowers_01_LOD0
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+
+        GameObject: Flowers_01_LOD1
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: Rock_05 (1)
+      Active: True
+      Position: (-10.90, 0.49, -2.24)
+      Rotation: (0.00, 354.49, 0.00)
+      Scale: (2.18, 2.18, 2.18)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+GameObject: targetspawner
+  Active: True
+  Position: (-1.06, 1.18, 0.35)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - TargetSpawner
+
+GameObject: GameFlow
+  Active: True
+  Position: (6.87, 23.61, -41.46)
+  Rotation: (22.31, 335.51, 359.97)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - FileDataManager
+    - SessionTracker
+    - RoundTimer
+    - VRRoundInput
+    - GameManager
+    - GameUIManager
+
+GameObject: XR Interaction Manager
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - XRInteractionManager
+
+GameObject: EventSystem
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - EventSystem
+    - InputSystemUIInputModule
+
+GameObject: spannerPoints
+  Active: True
+  Position: (-1.15, 1.34, 3.66)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
+    GameObject: point 1
+      Active: True
+      Position: (0.00, 0.00, 13.89)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: point 1 (1)
+      Active: True
+      Position: (5.00, 0.00, 13.89)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: point 1 (2)
+      Active: True
+      Position: (-3.34, 0.00, 13.89)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: point 1 (3)
+      Active: True
+      Position: (3.92, 1.41, 9.82)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: point 1 (4)
+      Active: True
+      Position: (1.80, 0.09, 9.82)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: point 1 (5)
+      Active: True
+      Position: (-3.30, 1.41, 9.82)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: point 1 (6)
+      Active: True
+      Position: (0.13, -1.31, 9.82)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+GameObject: GamePopUpCanvas
+  Active: False
+  Position: (1.33, 0.91, 1.98)
+  Rotation: (0.00, 62.87, 0.00)
+  Scale: (0.00, 0.00, 0.00)
+  Components:
+    - RectTransform
+    - Canvas
+    - CanvasScaler
+    - GraphicRaycaster
+
+    GameObject: Panel
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (0.36, 0.36, 0.36)
+      Components:
+        - RectTransform
+        - CanvasRenderer
+        - Image
+
+        GameObject: Text (TMP)
+          Active: True
+          Position: (0.00, 163.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - RectTransform
+            - CanvasRenderer
+            - TextMeshProUGUI
+
+        GameObject: GlowBG
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1296.50, 569.04, 569.04)
+          Components:
+            - RectTransform
+            - MeshFilter
+            - MeshRenderer
+            - MeshCollider
+
+GameObject: TutorialManager
+  Active: True
+  Position: (-7.72, 2.51, -4.18)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - TutorialController
+
+GameObject: XR Origin (VR) 1 1
+  Active: True
+  Position: (0.17, 0.00, -0.37)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - XROrigin
+    - InputActionManager
+    - CharacterController
+
+    GameObject: Camera Offset
+      Active: True
+      Position: (0.00, 1.12, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+        GameObject: Main Camera
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - Camera
+            - AudioListener
+            - TrackedPoseDriver
+            - UniversalAdditionalCameraData
+
+    GameObject: Left Hand
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - XRDirectInteractor
+        - ControllerInputActionManager
+        - TrackedPoseDriver
+        - SphereCollider
+
+        GameObject: LeftHandPrefab
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 80.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - Animator
+            - HandAnimation
+            - HapticSender
+            - HapticSender
+
+            GameObject: hands:hands_geom
+              Active: True
+              Position: (0.00, 0.00, 0.00)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:Lhand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (0.00, 0.00, 0.00)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+                    - SkinnedMeshRenderer
+
+            GameObject: hands:l_hand_world
+              Active: True
+              Position: (-0.02, 0.05, -0.07)
+              Rotation: (343.45, 141.98, 256.24)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:b_l_hand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (337.87, 114.23, 330.21)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+
+                    GameObject: hands:b_l_grip
+                      Active: True
+                      Position: (0.07, -0.01, 0.02)
+                      Rotation: (18.60, 246.35, 328.02)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_l_hand_ignore
+                      Active: True
+                      Position: (0.14, 0.00, 0.00)
+                      Rotation: (26.25, 0.00, 0.00)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_l_index1
+                      Active: True
+                      Position: (0.09, -0.04, -0.01)
+                      Rotation: (285.12, 106.62, 61.11)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_index2
+                          Active: True
+                          Position: (-0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 338.53)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_index3
+                              Active: True
+                              Position: (-0.02, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 353.17)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_index_ignore
+                                  Active: True
+                                  Position: (-0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_l_middle1
+                      Active: True
+                      Position: (0.09, -0.01, -0.01)
+                      Rotation: (279.60, 18.78, 151.91)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_middle2
+                          Active: True
+                          Position: (-0.05, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 332.75)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_middle3
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 352.46)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_middle_ignore
+                                  Active: True
+                                  Position: (-0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_l_pinky0
+                      Active: True
+                      Position: (0.03, 0.02, 0.01)
+                      Rotation: (306.22, 337.43, 22.88)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_pinky1
+                          Active: True
+                          Position: (0.05, 0.00, 0.00)
+                          Rotation: (358.98, 357.94, 166.52)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_pinky2
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 341.05)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_pinky3
+                                  Active: True
+                                  Position: (-0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 354.61)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                                    GameObject: hands:b_l_pinky_ignore
+                                      Active: True
+                                      Position: (-0.02, 0.00, 0.00)
+                                      Rotation: (0.00, 0.00, 0.00)
+                                      Scale: (1.00, 1.00, 1.00)
+                                      Components:
+                                        - Transform
+
+                    GameObject: hands:b_l_ring1
+                      Active: True
+                      Position: (0.09, 0.01, 0.00)
+                      Rotation: (290.85, 338.48, 190.55)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_ring2
+                          Active: True
+                          Position: (-0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 336.59)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_ring3
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 350.37)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_ring_ignore
+                                  Active: True
+                                  Position: (-0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_l_thumb1
+                      Active: True
+                      Position: (0.03, -0.04, 0.02)
+                      Rotation: (9.51, 156.90, 27.23)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_thumb2
+                          Active: True
+                          Position: (-0.03, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 343.63)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_thumb3
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 1.00)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_thumb_ignore
+                                  Active: True
+                                  Position: (-0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+    GameObject: Right Hand
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - XRDirectInteractor
+        - ControllerInputActionManager
+        - TrackedPoseDriver
+        - SphereCollider
+
+        GameObject: RightHandPrefab
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 280.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - Animator
+            - HandAnimation
+            - HapticSender
+            - HapticSender
+
+            GameObject: hands:hands_geom
+              Active: True
+              Position: (0.00, 0.00, 0.00)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:Rhand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (0.00, 0.00, 0.00)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+                    - SkinnedMeshRenderer
+
+            GameObject: hands:r_hand_world
+              Active: True
+              Position: (0.02, 0.05, -0.07)
+              Rotation: (342.82, 219.09, 102.91)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:b_r_hand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (22.13, 65.77, 150.21)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+
+                    GameObject: hands:b_r_grip
+                      Active: True
+                      Position: (-0.07, 0.02, -0.02)
+                      Rotation: (343.69, 67.62, 212.21)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_r_hand_ignore
+                      Active: True
+                      Position: (-0.14, 0.00, 0.00)
+                      Rotation: (26.25, 0.00, 0.00)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_r_index1
+                      Active: True
+                      Position: (-0.09, 0.04, 0.01)
+                      Rotation: (285.12, 106.62, 61.11)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_index2
+                          Active: True
+                          Position: (0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 338.53)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_index3
+                              Active: True
+                              Position: (0.02, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 353.17)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_index_ignore
+                                  Active: True
+                                  Position: (0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_r_middle1
+                      Active: True
+                      Position: (-0.09, 0.01, 0.01)
+                      Rotation: (279.60, 18.78, 151.91)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_middle2
+                          Active: True
+                          Position: (0.05, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 332.75)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_middle3
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 352.46)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_middle_ignore
+                                  Active: True
+                                  Position: (0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_r_pinky0
+                      Active: True
+                      Position: (-0.03, -0.02, -0.01)
+                      Rotation: (306.22, 337.43, 22.88)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_pinky1
+                          Active: True
+                          Position: (-0.05, 0.00, 0.00)
+                          Rotation: (358.98, 357.94, 166.52)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_pinky2
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 341.05)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_pinky3
+                                  Active: True
+                                  Position: (0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 354.61)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                                    GameObject: hands:b_r_pinky_ignore
+                                      Active: True
+                                      Position: (0.02, 0.00, 0.00)
+                                      Rotation: (0.00, 0.00, 0.00)
+                                      Scale: (1.00, 1.00, 1.00)
+                                      Components:
+                                        - Transform
+
+                    GameObject: hands:b_r_ring1
+                      Active: True
+                      Position: (-0.09, -0.01, 0.00)
+                      Rotation: (290.85, 338.48, 190.55)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_ring2
+                          Active: True
+                          Position: (0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 336.59)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_ring3
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 350.37)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_ring_ignore
+                                  Active: True
+                                  Position: (0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_r_thumb1
+                      Active: True
+                      Position: (-0.03, 0.04, -0.02)
+                      Rotation: (9.51, 156.90, 27.23)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_thumb2
+                          Active: True
+                          Position: (0.03, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 343.63)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_thumb3
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 1.00)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_thumb_ignore
+                                  Active: True
+                                  Position: (0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+        GameObject: Teleport Interactor
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - XRRayInteractor
+
+    GameObject: Locomotion
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - XRBodyTransformer
+        - LocomotionMediator
+
+        GameObject: Move
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - DynamicMoveProvider
+
+        GameObject: Turn
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - SnapTurnProvider
+
+GameObject: bow 1
+  Active: True
+  Position: (-0.75, 0.98, 1.96)
+  Rotation: (87.37, 0.00, 270.00)
+  Scale: (0.30, 0.30, 0.30)
+  Components:
+    - Transform
+    - BoxCollider
+    - Rigidbody
+    - XRGrabInteractable
+    - BowStringController
+    - ArrowController
+    - AudioSource
+    - BowGrabLogger
+
+    GameObject: BottomHolder
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: BottomLimb
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: BottomRiser
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: BottomScrew
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Cube.003
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Cube.004
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Cube.005
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Cube.006
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Cylinder.001
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Cylinder.002
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Cylinder.003
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Handle
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Riser
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: TopHolder
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: TopLimb
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: TopScrew
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (270.02, 0.00, 0.00)
+      Scale: (100.00, 100.00, 100.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: AttachPoint
+      Active: True
+      Position: (0.14, 3.37, 0.15)
+      Rotation: (0.00, 270.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: BowStringVisualization
+      Active: True
+      Position: (0.00, 2.16, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - LineRenderer
+        - BowString
+
+        GameObject: BowEndPoints
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+
+            GameObject: End1
+              Active: True
+              Position: (0.99, 3.38, 0.05)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+            GameObject: End2
+              Active: True
+              Position: (1.01, -0.83, 0.05)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+    GameObject: MidPointParent
+      Active: True
+      Position: (1.01, 3.58, 0.03)
+      Rotation: (0.00, 270.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+        GameObject: MidPointGrabObject
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (0.05, 0.04, 0.05)
+          Components:
+            - Transform
+            - BoxCollider
+            - Rigidbody
+            - XRGrabInteractable
+
+        GameObject: MidPointVisualObject
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (0.09, 0.09, 0.09)
+          Components:
+            - Transform
+
+            GameObject: arrow
+              Active: True
+              Position: (-25.16, 0.30, 7.14)
+              Rotation: (0.00, 90.00, 0.00)
+              Scale: (706.20, 706.20, 706.20)
+              Components:
+                - Transform
+                - MeshFilter
+                - MeshRenderer
+
+                GameObject: SpawnPoint
+                  Active: True
+                  Position: (-0.03, 0.02, 0.04)
+                  Rotation: (0.00, 90.00, 0.00)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+
+            GameObject: Visual
+              Active: True
+              Position: (0.00, 0.00, 0.00)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (0.56, 0.44, 0.56)
+              Components:
+                - Transform
+                - MeshFilter
+                - MeshRenderer
+
+    GameObject: BowStringAudioSource
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+    GameObject: BowReleaseAudioSource
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+GameObject: XR Device Simulator
+  Active: False
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - XRDeviceSimulator
+
+GameObject: Tutorial board
+  Active: True
+  Position: (2.32, 0.90, 3.83)
+  Rotation: (0.00, 52.29, 0.00)
+  Scale: (0.74, 0.74, 0.74)
+  Components:
+    - Transform
+
+    GameObject: Wood_back
+      Active: True
+      Position: (0.00, 0.45, 0.00)
+      Rotation: (0.00, 341.17, 0.00)
+      Scale: (1.81, 1.00, 0.05)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: Quad
+      Active: True
+      Position: (0.00, 0.44, -0.03)
+      Rotation: (0.00, 341.17, 0.00)
+      Scale: (1.57, 0.80, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Tut_text
+      Active: True
+      Position: (0.00, 0.72, -0.05)
+      Rotation: (0.00, 341.17, 0.00)
+      Scale: (0.03, 0.03, 0.03)
+      Components:
+        - RectTransform
+        - MeshRenderer
+        - TextMeshPro
+        - MeshFilter
+
+    GameObject: stick
+      Active: True
+      Position: (0.01, -0.90, 0.02)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (0.07, 1.01, 0.07)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - CapsuleCollider
+
+    GameObject: TopBar
+      Active: True
+      Position: (0.01, 0.85, -0.02)
+      Rotation: (0.00, 341.17, 0.00)
+      Scale: (1.60, 0.10, 0.10)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: BottomBar
+      Active: True
+      Position: (0.01, 0.07, -0.02)
+      Rotation: (0.00, 341.17, 0.00)
+      Scale: (1.60, 0.10, 0.10)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: RightBar (1)
+      Active: True
+      Position: (0.75, 0.45, 0.23)
+      Rotation: (0.00, 341.17, 0.00)
+      Scale: (0.10, 0.89, 0.10)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: RightBar (2)
+      Active: True
+      Position: (-0.77, 0.45, -0.29)
+      Rotation: (0.00, 341.17, 0.00)
+      Scale: (0.10, 0.89, 0.10)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+GameObject: Fences
+  Active: True
+  Position: (-0.52, -11.31, 6.11)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
+    GameObject: fence-fortified
+      Active: True
+      Position: (-3.75, 11.16, -0.83)
+      Rotation: (0.00, 72.87, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (1)
+      Active: True
+      Position: (-3.46, 11.16, -1.78)
+      Rotation: (0.00, 72.87, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (2)
+      Active: True
+      Position: (-3.17, 11.16, -2.71)
+      Rotation: (0.00, 72.87, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (8)
+      Active: True
+      Position: (-2.88, 11.16, -3.65)
+      Rotation: (0.00, 72.87, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (4)
+      Active: True
+      Position: (-2.55, 11.16, -4.47)
+      Rotation: (0.00, 57.09, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (10)
+      Active: True
+      Position: (-2.00, 11.16, -5.16)
+      Rotation: (0.00, 42.04, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (11)
+      Active: True
+      Position: (-1.29, 11.16, -5.80)
+      Rotation: (0.00, 36.20, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (12)
+      Active: True
+      Position: (-0.56, 11.16, -6.23)
+      Rotation: (0.00, 17.14, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (13)
+      Active: True
+      Position: (0.35, 11.03, -6.53)
+      Rotation: (0.00, 11.50, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (14)
+      Active: True
+      Position: (1.30, 11.03, -6.72)
+      Rotation: (0.00, 11.50, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (15)
+      Active: True
+      Position: (2.25, 11.03, -6.88)
+      Rotation: (0.00, 5.47, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (16)
+      Active: True
+      Position: (2.98, 10.94, -6.75)
+      Rotation: (0.00, 335.48, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (17)
+      Active: True
+      Position: (3.45, 10.94, -6.28)
+      Rotation: (0.00, 297.13, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (18)
+      Active: True
+      Position: (3.91, 10.94, -5.39)
+      Rotation: (0.00, 297.13, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (19)
+      Active: True
+      Position: (4.37, 10.94, -4.49)
+      Rotation: (0.00, 297.13, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (20)
+      Active: True
+      Position: (4.71, 10.94, -3.57)
+      Rotation: (0.00, 291.64, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (21)
+      Active: True
+      Position: (5.09, 10.94, -2.62)
+      Rotation: (0.00, 291.64, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (22)
+      Active: True
+      Position: (5.46, 10.94, -1.68)
+      Rotation: (0.00, 291.64, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: fence-fortified (23)
+      Active: True
+      Position: (5.84, 10.94, -0.74)
+      Rotation: (0.00, 291.64, 0.00)
+      Scale: (1.95, 2.55, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand
+      Active: True
+      Position: (0.06, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (8)
+      Active: True
+      Position: (4.47, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (4)
+      Active: True
+      Position: (-1.61, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (9)
+      Active: True
+      Position: (2.80, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (2)
+      Active: True
+      Position: (-0.77, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (10)
+      Active: True
+      Position: (3.64, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (5)
+      Active: True
+      Position: (-2.44, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (11)
+      Active: True
+      Position: (1.97, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (1)
+      Active: True
+      Position: (-0.35, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (12)
+      Active: True
+      Position: (4.06, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (6)
+      Active: True
+      Position: (-2.02, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (13)
+      Active: True
+      Position: (2.39, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (3)
+      Active: True
+      Position: (-1.18, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (14)
+      Active: True
+      Position: (3.23, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (7)
+      Active: True
+      Position: (-2.85, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+    GameObject: campfire-stand (15)
+      Active: True
+      Position: (1.56, 11.27, -4.29)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 3.25, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+GameObject: Environment
+  Active: True
+  Position: (0.14, 0.07, 27.26)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
+    GameObject: structure-floor
+      Active: True
+      Position: (0.41, -0.10, -25.34)
+      Rotation: (0.00, 90.00, 0.00)
+      Scale: (1.42, 1.42, 1.42)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+        GameObject: Group
+          Active: True
+          Position: (-0.25, 0.50, -0.25)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: structure-floor (1)
+      Active: True
+      Position: (-0.09, -0.10, -25.34)
+      Rotation: (0.00, 90.00, 0.00)
+      Scale: (1.42, 1.42, 1.42)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - BoxCollider
+
+        GameObject: Group
+          Active: True
+          Position: (-0.25, 0.50, -0.25)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+
+    GameObject: tree-log-small
+      Active: True
+      Position: (4.41, -0.17, -21.89)
+      Rotation: (0.00, 311.98, 0.00)
+      Scale: (1.35, 1.35, 1.35)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: tree-log-small (1)
+      Active: True
+      Position: (4.14, -0.17, -22.18)
+      Rotation: (0.00, 311.98, 0.00)
+      Scale: (1.35, 1.35, 1.35)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: tree-log-small (2)
+      Active: True
+      Position: (4.23, 0.10, -22.09)
+      Rotation: (0.00, 311.98, 0.00)
+      Scale: (1.35, 1.35, 1.35)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: tree-trunk
+      Active: True
+      Position: (-3.83, -0.06, -22.77)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.95, 1.95, 1.95)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: rock-a
+      Active: True
+      Position: (-3.63, -0.06, -23.74)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: rock-b
+      Active: True
+      Position: (-2.91, -0.07, -24.24)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: rock-c
+      Active: True
+      Position: (-3.45, -0.06, -24.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: barrel
+      Active: True
+      Position: (3.91, -0.26, -25.53)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: barrel-open
+      Active: True
+      Position: (-3.34, -0.06, -25.82)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: bedroll-frame
+      Active: True
+      Position: (4.05, -0.18, -23.31)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: Mountain (07)
+      Active: True
+      Position: (18.83, -1.82, -28.39)
+      Rotation: (0.00, 24.22, 0.00)
+      Scale: (2.49, 2.49, 3.97)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (08)
+      Active: True
+      Position: (-31.44, -1.82, -12.16)
+      Rotation: (0.00, 343.64, 0.00)
+      Scale: (2.49, 2.49, 3.97)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (6)
+      Active: True
+      Position: (2.21, -1.82, -38.51)
+      Rotation: (0.00, 243.17, 0.00)
+      Scale: (2.49, 2.49, 3.97)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (9)
+      Active: True
+      Position: (-33.54, -0.77, 8.24)
+      Rotation: (0.00, 193.75, 0.00)
+      Scale: (2.49, 2.49, 3.97)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (5)
+      Active: True
+      Position: (-18.84, -0.41, -33.56)
+      Rotation: (0.00, 58.96, 0.00)
+      Scale: (3.91, 2.08, 3.07)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
