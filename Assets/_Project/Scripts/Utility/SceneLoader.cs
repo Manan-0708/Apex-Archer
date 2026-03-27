@@ -13,9 +13,15 @@ public class SceneLoader : MonoBehaviour
             Destroy(gameObject);
     }
 
+    public void SelectMap(string mapName)
+    {
+        PlayerPrefs.SetString("SelectedMap", mapName);
+    }
+
     public void LoadGame(bool tutorial)
     {
         PlayerPrefs.SetInt("PlayTutorial", tutorial ? 1 : 0);
-        SceneManager.LoadScene("Desert_Scene");
+        string mapToLoad = PlayerPrefs.GetString("SelectedMap", "Desert_Scene");
+        SceneManager.LoadScene(mapToLoad);
     }
 }

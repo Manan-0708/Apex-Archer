@@ -103,6 +103,29 @@ public class FileDataManager : MonoBehaviour
         Debug.Log("Leaderboard Updated Successfully.");
     }
 
+    public class TopEntry
+    {
+        public string player;
+        public int score;
+    }
+
+    public List<TopEntry> GetTopEntries(int count)
+    {
+        List<TopEntry> result = new List<TopEntry>();
+        if (!File.Exists(leaderboardPath)) return result;
+
+        var lines = File.ReadAllLines(leaderboardPath);
+        for (int i = 1; i < lines.Length; i++) // Skip header
+        {
+            if (string.IsNullOrWhiteSpace(lines[i])) continue;
+            var parts = lines[i].Split(',');
+            if (parts.Length < 5) continue;
+            result.Add(new TopEntry { player = parts[0], score = int.Parse(parts[1]) });
+        }
+
+        return result.OrderByDescending(e => e.score).Take(count).ToList();
+    }
+
     // Internal leaderboard structure
     private class LeaderboardEntry
     {
