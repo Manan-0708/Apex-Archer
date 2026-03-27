@@ -1,0 +1,71 @@
+UI Canvas Mechanism - Main_Menu Scene
+======================================
+
+The Canvas in the `Main_Menu` scene is the central user interface system for your game. It uses a \"Panel-based\" navigation system, where different screens of the menu are separated into individual UI Panels. By enabling (making active) and disabling (making inactive) these panels, the game creates a seamless flow of menus without needing to load multiple scenes.
+
+Below is a deep, detailed breakdown of each and every object inside the Canvas and its role mechanically:
+
+---
+
+1. Canvas (Root Object)
+-----------------------
+This is the master container for all User Interface elements. It handles the scaling, rendering, and raycasting (detecting clicks/pointers) for everything inside it.
+- Connected Component: It relies on the `EventSystem` object (outside the canvas) to register inputs from your VR controllers or mouse.
+
+2. Image
+--------
+This is the root background image of your entire canvas. It provides a visual backdrop that sits behind all panels. Because it is the first child of the canvas, it is rendered first (in the back).
+
+3. MainMenuPanel (Active by default)
+------------------------------------
+This is the first screen the player sees when the scene loads.
+- **Text (TMP)**: The main title text of your game (e.g., "Apex Archer").
+- **StartButton**: When clicked, it tells the `MainMenuController` to hide the `MainMenuPanel` and open the next logical panel (likely `Nameregistrationpanel` or `MapSelectionPanel`).
+  - **Text (TMP)**: Contains the label "Start" or "Play".
+- **LeaderBoardButton**: When clicked, it likely triggers `MainMenuController.PopulateLeaderboard()` and then deactivates the `MainMenuPanel` to activate the `LeaderBoardPanel`.
+  - **Text (TMP)**: Contains the label "Leaderboard".
+- **QuitButton**: When clicked, it tells the `MainMenuController` to execute `Application.Quit()` to exit the game.
+  - **Text (TMP)**: Contains the label "Quit".
+
+4. Nameregistrationpanel (Inactive by default)
+----------------------------------------------
+This panel handles player onboarding, specifically saving the player's name for the leaderboard.
+- **NameDisplayText**: A UI Text element that shows what the player is currently typing or speaking.
+- **PromptText**: A set of instructions (e.g., "Please enter your name").
+- **NextButton** (Initially Inactive): This button only becomes active/clickable once a valid name is entered and stored. Clicking it proceeds to the Map Selection or Game Mode screen.
+  - **Text (TMP)**: Contains the label "Next" or "Confirm".
+
+5. MapSelectionPanel (Inactive by default)
+------------------------------------------
+This panel allows the player to choose which environment they want to play in.
+- **MapTitle**: The header text instructing the player to choose a map.
+- **JungleButton**: When clicked, it passes a string (e.g., "Jungle") to the `MainMenuController.OnMapSelected()` method. This saves "Jungle" to PlayerPrefs as the selected map and advances the menu sequence.
+  - **Text (TMP)**: Label "Jungle".
+- **Desertbutton**: When clicked, calls the same map selection logic but passes the "Desert" identifier.
+  - **Text (TMP)**: Label "Desert".
+- **StadiumButton**: When clicked, passes the "Stadium" identifier for the map selection.
+  - **Text (TMP)**: Label "Stadium".
+
+6. GameModePanel (Inactive by default)
+--------------------------------------
+This panel lets the player choose if they want to play the tutorial or jump straight into the main game.
+- **Modetitle**: The header text for the game mode select screen.
+- **PlayTutorialButton**: When clicked, it calls `MainMenuController.LoadGame(true)`. The system uses the previously selected map but sets a flag to spawn the player in a state or level tailored for the tutorial logic.
+  - **Text (TMP)**: Label "Play Tutorial".
+- **PlayGameButton**: When clicked, it calls `MainMenuController.LoadGame(false)`. This seamlessly loads the actual game scene (Jungle, Desert, or Stadium) as determined by your PlayerPrefs map choice.
+  - **Text (TMP)**: Label "Play Game".
+
+7. LeaderBoardPanel (Inactive by default)
+-----------------------------------------
+This panel displays the top scores fetched from your `leaderboard.csv` file.
+- **Image**: A background overlay specifically for the leaderboard so it stands out from the main background.
+- **LeaderBoardTitle**: Header text saying "Leaderboard" or "Top Archers".
+- **LeaderBoardContenttext**: A large text block where the parsed list of top players and their scores are injected dynamically by `FileDataManager.GetTopEntries()`.
+- **CloseButton**: When clicked, it hides the `LeaderBoardPanel` and reactivates the `MainMenuPanel`, returning the player to the start screen.
+  - **Text (TMP)**: Label "Close" or "Back".
+
+---
+Summary of Flow Mechanics:
+1. Player clicks "Start" -> Main Menu hides -> Map or Name panel opens.
+2. Player configures settings (Name -> Map -> Game Mode).
+3. The final button calls a SceneLoader method, looking up the stored variables to load the correct Unity Level file while preserving the user's name and settings.
